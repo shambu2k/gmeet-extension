@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    .itemforlist {
+  border: 5px outset #00CED1;
+  background-color: lightblue;
+  text-align: center;
+  width: 300px;}
+
+    .btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin-bottom:5px;
+    margin-top: -4px;
+    }
+
+    .btn:hover {
+    background-color: #008CBA;
+    color: white;
+    }
+
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Gmeet</title>
 </head>
-<body style="height: 400px; width: 300px;">
-    <h1>GMEET EXTENSION</h1>
-    
+<body>
+    <h1  style="font-size:20px;">Attendees</h1>
+    <div class="itemforlist">
+        <p>Team X</p>
+        <button class="btn">Select</button>
+    </div>
     <script type="text/javascript" src="axios.min.js"></script>
     <script type="text/javascript" src="popup.js"></script>
 </body>
