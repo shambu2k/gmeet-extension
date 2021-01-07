@@ -41,13 +41,3 @@ const fetchTeams = () => {
 };
 
 fetchTeams();
-
-
-// This code is temporary, to auto admit people
-function injectTheScript() {
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        chrome.tabs.executeScript(tabs[0].id, {file: "content.js"});
-    });
-}
-
-injectTheScript();
