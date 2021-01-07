@@ -10,5 +10,4 @@
 ### Features
 - Auto Admit the members of a selected to the particular google meet.
 ![image](ss1.jpeg)
-- Display the team members name
 ![image](ss2.jpeg)
