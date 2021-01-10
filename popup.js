@@ -32,7 +32,7 @@ const fetchTeams = () => {
     axios.get('http://127.0.0.1:8010/proxy/allteams')
         .then(response => {
             let teams = response.data;
-            console.log(`GET list users`, teams);
+            console.log(`GET list teams`, teams);
             teams.forEach(element => {
                 teams_list_div.appendChild(populatePopup(element));
             });

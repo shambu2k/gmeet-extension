@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A gmeet extension for teams to auto admit people in their teams, create MOMs, generate attendance lists",
   "scripts": {
-    "cors_lcp": "lcp --proxyUrl http://127.0.0.1:8080/"
+    "lcp": "lcp --proxyUrl http://127.0.0.1:8080/"
   },
   "repository": {
     "type": "git",

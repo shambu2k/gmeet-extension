@@ -9,11 +9,14 @@
     },
     "permissions": [
      "activeTab",
-     "http://*/"
+     "http://*/",
+     "tabs",
+     "storage"
      ],
      "content_scripts": [{
         "matches": ["https://meet.google.com/*"],
         "js": ["content.js"],
         "all_frames": false
-      }]
+      }],
+      "background": { "scripts": [ "background.js" ], "persistent": false }
   }
